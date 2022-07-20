@@ -1,0 +1,5 @@
+let empleado = `Jenniffer Antepara`;
+let sueldo = 425;
+console.log(empleado);
+console.log(sueldo);
+console.log(`Mi nombre es `+empleado +` y mi salario es `+sueldo);
