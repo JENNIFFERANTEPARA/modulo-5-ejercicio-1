@@ -1,0 +1,14 @@
+a. 90485 >= 39493
+let a = 90485 >= 39493;
+console.log(a);
+
+b. ‘y’ <> ‘Y’
+let b = `y` < `Y`;
+console.log(b);
+
+let b = `y` > `Y`;
+console.log(b);
+
+c. “María” == “María”
+let c = `María` == `María`;
+console.log(c);
