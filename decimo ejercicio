@@ -1,0 +1,15 @@
+Desarrollar un programa que muestre la tabla de multiplicar del de un número
+dado (del 1 al 50).
+Si la tabla de multiplicar ser la de 3, deberá mostrar
+1 x 3 = 3
+2 x 3 = 6
+…..
+50 x 3 = 150
+let x = 0;
+let y=3;
+        do
+        {
+            console.log(+x, "* " ,+y, "= " + x*3);
+            x++;
+        }
+        while (x <= 50);                                                          
