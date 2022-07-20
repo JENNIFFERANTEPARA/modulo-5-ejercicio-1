@@ -1,0 +1,27 @@
+a. V OR F AND V
+let valor1=true;
+let valor2=false;
+let resultado = valor1 || valor2 && valor1;
+console.log(resultado);
+b. V AND F OR V OR NOT V
+let valor1=true;
+let valor2=false;
+let resultado = valor1 && valor2 || valor1 ||  (!valor1);
+console.log(resultado);
+IGUAL RESULTADO
+let valor1=true;
+let valor2=false;
+let resultado = valor1 && valor2;
+let resultado1=resultado || valor1;
+let resultado2=resultado1 ||  (!valor1);
+
+console.log(resultado);
+console.log(resultado1);
+console.log(resultado2);
+
+
+c. NOT ( V OR F) AND (F AND V)
+let valor1=true;
+let valor2=false;
+let resultado = ! (valor1 || valor2) && (valor2&&valor1) ;
+console.log(resultado);
