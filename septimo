@@ -1,0 +1,8 @@
+invertir la misma y mostrar por pantalla. Ejemplo:
+Entrada: "casa blanca"
+Salida: "acnalb asac"
+const invertirCadena = cadena => cadena.split("").reverse().join("");
+
+var txt = " casa blanca ";
+
+console.log(invertirCadena(txt));
