@@ -1,0 +1,7 @@
+var precio;
+var cantidad;
+precio = 3;
+cantidad = 5;
+var resultado = precio * cantidad;
+console.log(resultado);
+console.log(`Debe pagar el comprador `+resultado+` Dólares `);
