@@ -1,0 +1,13 @@
+Dado dos números decimales, imprimir el mayor y el menor, con el valor
+redondeado. Ejemplo
+o Num1= 445.23
+o Num2= 298.72
+La salida sería
+▪ El número mayor es 445
+▪ El número menor es 299
+let numero1=445.23;
+let numero2=298.72;
+let max=Math.max(numero1,numero2);
+let min=Math.min(numero1,numero2);
+console.log(`El número mayor es `+ Math.round(max));
+console.log(`El número menor es `+ Math.round(min));
