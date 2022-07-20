@@ -1,0 +1,10 @@
+let numero1=10;
+let numero2=4;
+let resultadosuma = numero1 + numero2;
+let resultadoresta = numero1 - numero2;
+let resultadomultiplicacion = numero1 * numero2;
+let resultadopotencia = numero1 ** numero2;
+console.log(resultadosuma);
+console.log(resultadoresta);
+console.log(resultadomultiplicacion);
+console.log(resultadopotencia);
